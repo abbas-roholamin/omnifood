@@ -1,0 +1,15 @@
+/** @format */
+
+:root {
+  /* Colors */
+  --color-primary--200: #fdf2e9;
+  --color-primary--500: #e67e22;
+  --color-primary--600: #cf711f;
+  --color-primary--700: #b05f18;
+
+  --color-gray--500: #555;
+  --color-gray--300: #333;
+
+  --color-white: #fff;
+  --color-black: #000;
+}
