@@ -50,4 +50,7 @@
   --space-80: 8rem;
   --space-96: 9.6rem;
   --space-124: 124rem;
+
+  /* Border Radius */
+  --rounded-sm: 9px;
 }
