@@ -22,8 +22,9 @@
 
   /* Font Width */
   --font-width-defult: 400;
-  --font-width-bold: 600;
-  --font-width-bolder: 700;
+  --font-width-medium: 500;
+  --font-width-semi-bold: 600;
+  --font-width-bold: 700;
 
   /* Font Size */
   --font-size-10: 1rem;
@@ -41,6 +42,11 @@
   --font-size-74: 7.4rem;
   --font-size-86: 8.6rem;
   --font-size-98: 9.8rem;
+
+  /* Line Heights */
+  --traking-default: 1;
+  --traking-sm: 1.05;
+  --traking-paragraph: 1.6;
 
   /* White Space */
   --space-2: 0.2rem;
@@ -162,15 +168,19 @@ a:visited {
   text-decoration: none;
 }
 
-/* Utilites */
+/*------------------------------------*\
+  #GENRAL-STYLES
+\*------------------------------------*/
 .mr-16 {
   margin-right: var(--space-16);
 }
 
-/* Hero Section */
+/*------------------------------------*\
+  #HERO-SECTION
+\*------------------------------------*/
 .section-hero {
   background-color: var(--color-primary--50);
-  padding: var(--space-96) 0;
+  padding: var(--space-48) 0 var(--space-96);
 }
 
 .hero {
@@ -184,7 +194,7 @@ a:visited {
 
 .heading-primary {
   font-size: var(--font-size-52);
-  font-weight: var(--font-width-bolder);
+  font-weight: var(--font-width-bold);
   line-height: 1.05;
   color: var(--color-gray--300);
   letter-spacing: -0.5px;
@@ -200,7 +210,7 @@ a:visited {
 .btn:link,
 .btn:visited {
   font-size: var(--font-size-20);
-  font-weight: var(--font-width-bold);
+  font-weight: var(--font-width-semi-bold);
   padding: var(--space-16) var(--space-32);
   border-radius: var(--rounded-sm);
   transition: all 0.3s;
@@ -251,10 +261,59 @@ a:visited {
 
 .delivered-text {
   font-size: var(--font-size-18);
-  font-weight: var(--font-width-bold);
+  font-weight: var(--font-width-semi-bold);
 }
 
 .delivered-text span {
   color: var(--color-primary--700);
-  font-weight: var(--font-width-bolder);
+  font-weight: var(--font-width-bold);
+}
+
+/*------------------------------------*\
+  #HEADER-SECTION
+\*------------------------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary--50);
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.main-logo {
+  height: 2.2rem;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-32);
+  list-style-type: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: var(--color-gray--300);
+  font-weight: var(--font-width-medium);
+  font-size: var(--font-size-18);
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--color-primary--700);
+}
+
+.nav-link.cta-link:link,
+.nav-link.cta-link:visited {
+  padding: var(--space-12) var(--space-24);
+  background-color: var(--color-primary--700);
+  color: var(--color-white);
+  border-radius: var(--rounded-sm);
+}
+
+.nav-link.cta-link:hover,
+.nav-link.cta-link:active {
+  background-color: var(--color-primary--600);
 }
