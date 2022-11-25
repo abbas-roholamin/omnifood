@@ -171,6 +171,36 @@ a:visited {
 /*------------------------------------*\
   #GENRAL-STYLES
 \*------------------------------------*/
+.container {
+  max-width: 120rem;
+  padding: 0 var(--space-32);
+  margin: 0 auto;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
 .mr-16 {
   margin-right: var(--space-16);
 }
