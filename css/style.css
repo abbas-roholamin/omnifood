@@ -387,3 +387,55 @@ a:visited {
 .nav-link.cta-link:active {
   background-color: var(--color-primary--600);
 }
+
+/*------------------------------------*\
+  #HOW-IT-WORKS-SECTION
+\*------------------------------------*/
+.section-how {
+  padding: var(--space-96) 0;
+}
+
+.step-number {
+  font-size: var(--font-size-86);
+  font-weight: var(--font-width-semi-bold);
+  color: #ddd;
+}
+
+.step-description {
+  font-size: var(--font-size-18);
+  line-height: 1.8;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.step-img-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: var(--color-primary--50);
+  z-index: -2;
+}
+
+.step-img-box::after {
+  width: 40%;
+  padding-bottom: 40%;
+  background-color: var(--color-primary--100);
+  z-index: -1;
+}
+.step-image {
+  width: 35%;
+}
