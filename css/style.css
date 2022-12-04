@@ -62,6 +62,10 @@
   --space-96: 9.6rem;
   --space-124: 124rem;
 
+  /* Letter Spacing */
+  --tracking-wide: 0.75px;
+  --tracking-tight: -0.5px;
+
   /* Border Radius */
   --rounded-sm: 9px;
 }
