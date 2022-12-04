@@ -349,6 +349,29 @@ a:visited {
 }
 
 /*------------------------------------*\
+  #FEATURED-IN-SECTION
+\*------------------------------------*/
+.section-featured {
+  padding: var(--space-48) 0 var(--space-32);
+}
+
+.heading-featured-in {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-width-medium);
+  color: var(--color-gray--800);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  text-align: center;
+  margin-bottom: var(--space-24);
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
+
+/*------------------------------------*\
   #HEADER-SECTION
 \*------------------------------------*/
 .header {
