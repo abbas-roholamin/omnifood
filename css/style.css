@@ -51,9 +51,9 @@
   --font-size-98: 9.8rem;
 
   /* Line Heights */
-  --traking-default: 1;
-  --traking-sm: 1.05;
-  --traking-paragraph: 1.6;
+  --leading-default: 1;
+  --leading-sm: 1.05;
+  --leading-paragraph: 1.6;
 
   /* White Space */
   --space-2: 0.2rem;
