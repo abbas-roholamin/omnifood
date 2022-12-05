@@ -606,3 +606,25 @@ a:visited {
   color: var(--color-primary--600);
   border-bottom: 1px solid transparent;
 }
+
+/*------------------------------------*\
+  #Meals-SECTION
+\*------------------------------------*/
+.section-testimonials {
+  padding: var(--space-96) 0;
+}
+
+.testimonial-image {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: var(--space-12);
+}
+.testimonial-text {
+  font-size: var(--font-size-18);
+  line-height: var(--leading-paragraph);
+  margin-bottom: var(--space-16);
+}
+.testimonial-name {
+  font-size: var(--font-size-16);
+  color: var(--color-gray--800);
+}
