@@ -69,6 +69,7 @@
 
   /* Border Radius */
   --rounded-sm: 9px;
+  --rounded-medium: 11px;
 }
 
 /*------------------------------------*\
@@ -126,6 +127,10 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+strong {
+  font-weight: 500;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -224,6 +229,20 @@ a:visited {
 
 .mb-96 {
   margin-bottom: var(--space-96);
+}
+
+.mb-48 {
+  margin-bottom: var(--space-48);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  color: var(--color-primary--500);
 }
 
 /*------------------------------------*\
