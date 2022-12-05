@@ -496,3 +496,109 @@ a:visited {
 .step-image {
   width: 35%;
 }
+
+/*------------------------------------*\
+  #Meals-SECTION
+\*------------------------------------*/
+.section-meals {
+  padding: var(--space-96) 0;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: var(--rounded-medium);
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.meal-content {
+  padding: var(--space-32) var(--space-48) var(--space-48);
+}
+
+.meal-tags {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-12);
+}
+
+.tag {
+  display: inline-block;
+  padding: var(--space-4) var(--space-8);
+  border-radius: 100px;
+  font-size: var(--font-size-12);
+  text-transform: uppercase;
+  font-weight: var(--font-width-semi-bold);
+  color: var(--color-gray--300);
+}
+
+.tag--vegetarian {
+  background-color: var(--color-green-200);
+}
+
+.tag--vegan {
+  background-color: var(--color-lime-200);
+}
+
+.tag--paleo {
+  background-color: var(--color-yellow-200);
+}
+
+.meal-title {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-width-semi-bold);
+  color: var(--color-gray--300);
+  margin-bottom: var(--space-32);
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  font-size: var(--font-size-18);
+}
+
+.meal-attribute {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.diets-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.list-item {
+  font-size: var(--font-size-18);
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: var(--font-size-18);
+}
+
+.recipes-link:link,
+.recipes-link:visited {
+  color: var(--color-primary--700);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.recipes-link:hover,
+.recipes-link:active {
+  color: var(--color-primary--600);
+  border-bottom: 1px solid transparent;
+}
