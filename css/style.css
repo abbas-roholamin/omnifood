@@ -205,6 +205,10 @@ a:visited {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.gap-48 {
+  gap: var(--space-48);
+}
+
 .col-gap-64 {
   column-gap: var(--space-64);
 }
