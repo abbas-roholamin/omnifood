@@ -206,12 +206,24 @@ a:visited {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.gap-16 {
+  gap: var(--space-16);
+}
+
 .gap-48 {
   gap: var(--space-48);
 }
 
+.col-gap-80 {
+  column-gap: var(--space-80);
+}
+
 .col-gap-64 {
   column-gap: var(--space-64);
+}
+
+.row-gap-48 {
+  row-gap: var(--space-48);
 }
 
 .row-gap-96 {
@@ -244,6 +256,14 @@ a:visited {
 
 .mb-48 {
   margin-bottom: var(--space-48);
+}
+
+.p-16 {
+  padding: var(--space-16);
+}
+
+.p-96 {
+  padding: var(--space-96);
 }
 
 .text-center {
