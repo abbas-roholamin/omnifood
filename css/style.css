@@ -258,6 +258,10 @@ a:visited {
   margin-bottom: var(--space-48);
 }
 
+.mt-48 {
+  margin-top: var(--space-48);
+}
+
 .p-16 {
   padding: var(--space-16);
 }
