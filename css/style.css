@@ -652,3 +652,15 @@ a:visited {
   font-size: var(--font-size-16);
   color: var(--color-gray--900);
 }
+
+.gallary-item {
+  overflow: hidden;
+}
+
+.gallery-image {
+  transition: all 0.4s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
