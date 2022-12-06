@@ -234,12 +234,24 @@ a:visited {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .align-center {
