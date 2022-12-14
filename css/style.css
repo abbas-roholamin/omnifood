@@ -753,3 +753,28 @@ a:visited {
   flex-direction: column;
   gap: var(--space-16);
 }
+
+.plan-details {
+  font-size: var(--font-size-16);
+  line-height: var(--leading-paragraph);
+}
+.feature-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: var(--color-primary--50);
+  margin-bottom: var(--space-32);
+  padding: var(--space-16);
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: var(--font-size-24);
+  color: var(--color-gray--300);
+  font-weight: var(--font-width-bold);
+  margin-bottom: var(--space-16);
+}
+
+.feature-text {
+  font-size: var(--font-size-18);
+  line-height: var(--leading-paragraph);
+}
