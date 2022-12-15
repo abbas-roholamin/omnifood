@@ -395,7 +395,7 @@ label {
   line-height: 1.6;
   margin-bottom: var(--space-48);
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   font-size: var(--font-size-20);
