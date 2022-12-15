@@ -187,6 +187,10 @@ a:visited {
   text-decoration: none;
 }
 
+label {
+  display: block;
+}
+
 /*------------------------------------*\
   #GENRAL-STYLES
 \*------------------------------------*/
