@@ -827,7 +827,7 @@ label {
   #CTA-SECTION
 \*------------------------------------*/
 .section-cta {
-  padding: var(--space-96) 0;
+  padding: var(--space-48) 0 var(--space-124);
 }
 
 .cta {
