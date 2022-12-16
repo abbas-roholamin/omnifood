@@ -216,6 +216,10 @@ label {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .gap-16 {
   gap: var(--space-16);
 }
