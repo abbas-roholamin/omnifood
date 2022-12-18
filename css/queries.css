@@ -1,0 +1,15 @@
+/** @format */
+/* BELOW 1344px (SMOLLER DESKTOP) */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: var(--font-size-44);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
