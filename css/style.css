@@ -388,6 +388,7 @@ label {
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 var(--space-32);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
